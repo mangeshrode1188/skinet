@@ -26,7 +26,10 @@ namespace Core.Entities
 
         public int ProductBrandId { get; set; }
 
-
+        public object MapFrom<T>()
+        {
+            throw new NotImplementedException();
+        }
     }
 
 
