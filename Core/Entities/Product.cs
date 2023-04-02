@@ -1,8 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-
 namespace Core.Entities
 {
     public class Product : BaseEntity
@@ -25,11 +20,6 @@ namespace Core.Entities
         public ProductBrand ProductBrand { get; set; }
 
         public int ProductBrandId { get; set; }
-
-        public object MapFrom<T>()
-        {
-            throw new NotImplementedException();
-        }
     }
 
 

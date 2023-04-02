@@ -1,15 +1,8 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-
 namespace API.Dtos
 {
     public class ProductToReturnDto
     {
-        
-         public int Id { get; set; }
-
+        public int Id { get; set; }
         public string Name { get; set; }
 
         public string Description { get; set; }
@@ -20,12 +13,6 @@ namespace API.Dtos
 
 
         public string ProductType { get; set; }
-
-   
         public string ProductBrand { get; set; }
-
-      
-
-
     }
 }
